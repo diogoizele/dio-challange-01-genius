@@ -1,0 +1,43 @@
+.quarter-circle {
+  width: 15rem;
+  height: 15rem;
+  opacity: 0.7;
+
+  cursor: pointer;
+}
+
+.quarter-circle:hover {
+  opacity: 0.72;
+}
+
+.one-quarter {
+  grid-area: "oneQuarter";
+  border-top-right-radius: 0;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.two-quarter {
+  grid-area: "twoQuarter";
+  border-top-right-radius: 100%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.three-quarter {
+  grid-area: "threeQuarter";
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 100%;
+}
+
+.four-quarter {
+  grid-area: "fourQuarter";
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 0;
+}
